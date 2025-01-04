@@ -25,7 +25,7 @@ jobs:
 
       - name: Build with Gradle
         run: |
-          ./gradlew :app:aR
+          bash ./gradlew :app:aR
 
       - name: Upload build artifact
         uses: actions/upload-artifact@v4
